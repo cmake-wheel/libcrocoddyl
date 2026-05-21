@@ -1,7 +1,7 @@
 [build-system]
 build-backend = "cmeel"
 requires = [
-  "cmeel-boost ~= 1.89.0",
+  "cmeel-boost ~= 1.90.0",
   "cmeel[build]",
   "example-robot-data[build]",
   "libpinocchio[build]"
@@ -9,14 +9,14 @@ requires = [
 
 [project]
 dependencies = [
-  "cmeel-boost ~= 1.89.0",
+  "cmeel-boost ~= 1.90.0",
   "example-robot-data",
   "libpinocchio"
 ]
 description = "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
 license = "BSD-3-Clause"
 name = "libcrocoddyl"
-version = "3.2.0"
+version = "3.2.1"
 
 [project.urls]
 changelog = "https://github.com/loco-3d/crocoddyl/blob/devel/CHANGELOG.md"
